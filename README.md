@@ -1,31 +1,23 @@
-🌱 Serre Autonome - Système Intelligent de Régulation Climatique et d'Irrigation
-Ce projet utilise l'intelligence artificielle et l'analyse des données IoT pour automatiser la gestion d'une serre. Il repose sur un réseau de neurones qui prédit et contrôle plusieurs éléments :
+# Autonomous Greenhouse — Smart Climate Control & Irrigation System
 
-✅ Irrigation : Activation de la pompe en fonction de l'humidité
+This project uses artificial intelligence and IoT data analysis to automate greenhouse management. It relies on a neural network that predicts and controls several components:
 
-✅ Ventilation : Gestion des ventilateurs pour refroidir ou chauffer
+- **Irrigation**: pump activation based on humidity levels
+- **Ventilation**: fan management for cooling or heating
+- **Peltier system**: activation when temperature is too high
+- **Heating mat**: activation when temperature is too low
+- **Lighting**: control based on time of day
 
-✅ Système Peltier : Activation en cas de température élevée
+## Tech Stack
 
-✅ Tapis chauffant : Allumage si la température est trop basse
+- **Python** — data manipulation and visualization
+- **Pandas, NumPy, Seaborn** — data analysis and preprocessing
+- **Scikit-learn** — normalization and train/test split
+- **TensorFlow / Keras** — neural network for classification
+- **Matplotlib** — results visualization
 
-✅ Éclairage : Contrôle en fonction de l'heure
+## Dataset
 
-🚀 Technologies utilisées
+The data used in this project comes from the [IoT Agriculture 2024](https://www.kaggle.com/datasets/wisam1985/iot-agriculture-2024/data) dataset on Kaggle.
 
-🔹 Python : Manipulation des données et visualisation
-
-🔹 Pandas, NumPy, Seaborn : Analyse et prétraitement des données
-
-🔹 Scikit-learn : Normalisation et division des données
-
-🔹 TensorFlow/Keras : Réseau de neurones pour la classification
-
-🔹 Matplotlib : Visualisation des résultats
-
-📂 Données utilisées
-
-Les données utilisées pour ce projet proviennent du dataset "IoT Agriculture 2024" disponible sur Kaggle.
-Lien vers le dataset :[IoT Agriculture 2024 - Dataset Kaggle](https://www.kaggle.com/datasets/wisam1985/iot-agriculture-2024/data)  
-Le fichier IoTProcessed_Data.csv a été téléchargé depuis cette source et utilisé pour l'analyse et l'entraînement du modèle.
-
+The file `IoTProcessed_Data.csv` was downloaded from this source and used for analysis and model training.
